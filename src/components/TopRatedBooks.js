@@ -1,94 +1,94 @@
-import React from "react";
-import Card from "./Card";
-//import { Link, NavLink } from 'react-router-dom';
-const TopRatedBooks=()=>{
-    let books = [
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+// import React from "react";
+// import Card from "./Card";
+
+function TopRatedBooks(){
+    // let books = [
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        },
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+    //     },
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        },
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+    //     },
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        },
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+    //     },
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        },
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+    //     },
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        },
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+    //     },
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        },
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+    //     },
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        },
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+    //     },
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        },
-        {
-            image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
-            title : "fog",
-            authour:"dog" ,
-            price : "200 rupees",
-            pages : "100 pages" ,
-            section : "it"
+    //     },
+    //     {
+    //         image : "https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png",
+    //         title : "fog",
+    //         authour:"dog" ,
+    //         price : "200 rupees",
+    //         pages : "100 pages" ,
+    //         section : "it"
         
-        }
-        ]
+    //     }
+    //     ]
     
     return(
         <div className="back2">
-            {/* <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+             <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -96,7 +96,7 @@ const TopRatedBooks=()=>{
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="500">
-      <img src="https://dobraemerytura.org/img/top-rated-books-2017-goodreads.png" className="d-block" style={{height:"200px",width:"1520px"}} alt="..."></img>
+      <img src="https://images.idgesg.net/images/article/2020/07/stack_of_books_one_open_scattering_flying_letters_language_reading_education_dictionary_by_domin_domin_gettyimages-157719194_abstract_binary_by_aleksei_derin_gettyimages-914850254_cso_2400x1600-100853104-large.jpg" className="d-block" style={{height:"200px",width:"1520px"}} alt="..."></img>
       <div className="carousel-caption d-none d-md-block">
         
       </div>
@@ -122,11 +122,11 @@ const TopRatedBooks=()=>{
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
-</div> */}
+</div>
 <div className='container home'  >
 
            
-<div className='row row-cols-1 me-auto row-cols-sm-2 row-cols-md-3 row-cols-lg-3'>
+{/* <div className='row row-cols-1 me-auto row-cols-sm-2 row-cols-md-3 row-cols-lg-3'>
 
   <div className='col-sm-4 col-md-4 mt-3 mb-3 how'><Card bookObj={books[0]}>  </Card></div>
   <div className='col-sm-4 col-md-4 mt-3 mb-3 how'><Card bookObj={books[1]}>  </Card></div>
@@ -138,9 +138,9 @@ const TopRatedBooks=()=>{
   <div className='col-sm-4 col-md-4 mt-3 mb-3 how'><Card bookObj={books[7]}>  </Card></div>
   <div className='col-sm-4 col-md-4 mt-3 mb-3 how'><Card bookObj={books[8]}>  </Card></div>
 
-</div>
-</div>
-             {/* <div className="container d-flex "> 
+    </div> */}
+</div> 
+             <div className="container d-flex "> 
     
     <div className="row">
     <div className="col-2">
@@ -366,7 +366,7 @@ const TopRatedBooks=()=>{
   </div>
 </div>
 {/* row-2 */}
-{/* <div className="container p-3">
+ <div className="container p-3">
 <div className="row">
     <div className="col-2">
 <div className="card shadow-sm text-center p-3">
@@ -552,8 +552,8 @@ const TopRatedBooks=()=>{
 
 </div> 
 </div> 
-        </div> */}
-</div>
+        </div>
+
     );
 
 

@@ -13,7 +13,7 @@ import Books from "./components/Books";
 import CSE from "./components/CSE";
 import ECE from "./components/ECE";
 import MECH from "./components/MECH";
-import Card from "./components/Card";
+
 import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap";
@@ -86,7 +86,7 @@ function App() {
   <Route path="TopRatedBooks" element={<TopRatedBooks />} />
   <Route path="PreviousQuestionPapers" element={<PreviousQuestionPapers />} />
   <Route path="VideoTutorials" element={<VideoTutorials />} />
-  <Route path="Card" element={<Card />} />
+
 
   <Route path="LoginOrSignUp" element={<LoginOrSignUp />} >
   <Route path="Login" element={<Login />} />
